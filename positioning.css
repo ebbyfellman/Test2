@@ -1,0 +1,32 @@
+body{
+    position: relative;
+}
+
+#fixed{
+    position: fixed;
+    height: 200px;
+    width: 200px;
+    color: white;
+    background: blue;
+    top: 0%;
+    left: 0%;
+}
+
+#relative{
+    position: relative;
+    height: 300px;
+    width: 300px;
+    color: white;
+    background: red;
+}
+
+#absolute{
+    position: absolute;
+    width: 150px;
+    height: 100px;
+    top: 25px;
+    left: 25px;
+    color: white;
+    background: purple;
+}
+
